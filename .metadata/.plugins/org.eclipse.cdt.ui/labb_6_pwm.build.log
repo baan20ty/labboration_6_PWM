@@ -1,0 +1,20 @@
+10:15:45 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26608	     24	   2548	  29180	   71fc	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+
+10:15:47 Build Finished. 0 errors, 0 warnings. (took 1s.868ms)
+

@@ -1,0 +1,495 @@
+09:15:40 **** Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32wb55rgvx.d" -MT"Core/Startup/startup_stm32wb55rgvx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32wb55rgvx.o" "../Core/Startup/startup_stm32wb55rgvx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32wbxx_hal_msp.d" -MT"Core/Src/stm32wbxx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32wbxx_it.d" -MT"Core/Src/stm32wbxx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32wbxx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32wbxx.d" -MT"Core/Src/system_stm32wbxx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32wbxx.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-size   labb_6_pwm.elf 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+   text	   data	    bss	    dec	    hex	filename
+  19016	     20	   2544	  21580	   544c	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+09:15:56 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:30: error: 'RBG_R' undeclared (first use in this function)
+  107 |    HAL_TIM_PWM_Start(&htim1, RBG_R);
+      |                              ^~~~~
+../Core/Src/main.c:107:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:17:41 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19560	     20	   2544	  22124	   566c	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+09:18:11 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19560	     20	   2544	  22124	   566c	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+09:19:23 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19700	     20	   2544	  22264	   56f8	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+09:21:09 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:42: error: expected declaration specifiers or '...' before '&' token
+  100 |   HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_1);
+      |                                          ^
+In file included from ../Core/Inc/stm32wbxx_hal_conf.h:311,
+                 from ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h:770:44: error: expected declaration specifiers or '...' before numeric constant
+  770 | #define TIM_CHANNEL_1                      0x00000000U                          /*!< Capture/compare channel 1 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:100:50: note: in expansion of macro 'TIM_CHANNEL_1'
+  100 |   HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_1);
+      |                                                  ^~~~~~~~~~~~~
+../Core/Src/main.c:101:42: error: expected declaration specifiers or '...' before '&' token
+  101 |   HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_2);
+      |                                          ^
+In file included from ../Core/Inc/stm32wbxx_hal_conf.h:311,
+                 from ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h:771:44: error: expected declaration specifiers or '...' before numeric constant
+  771 | #define TIM_CHANNEL_2                      0x00000004U                          /*!< Capture/compare channel 2 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:101:50: note: in expansion of macro 'TIM_CHANNEL_2'
+  101 |   HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_2);
+      |                                                  ^~~~~~~~~~~~~
+../Core/Src/main.c:102:42: error: expected declaration specifiers or '...' before '&' token
+  102 |   HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_3);
+      |                                          ^
+In file included from ../Core/Inc/stm32wbxx_hal_conf.h:311,
+                 from ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h:772:44: error: expected declaration specifiers or '...' before numeric constant
+  772 | #define TIM_CHANNEL_3                      0x00000008U                          /*!< Capture/compare channel 3 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:102:50: note: in expansion of macro 'TIM_CHANNEL_3'
+  102 |   HAL_StatusTypeDef HAL_TIM_PWM_Start_IT(&htim1, TIM_CHANNEL_3);
+      |                                                  ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:31:46 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:39: error: expected declaration specifiers or '...' before '&' token
+  100 |   HAL_StatusTypeDef HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+      |                                       ^
+In file included from ../Core/Inc/stm32wbxx_hal_conf.h:311,
+                 from ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h:770:44: error: expected declaration specifiers or '...' before numeric constant
+  770 | #define TIM_CHANNEL_1                      0x00000000U                          /*!< Capture/compare channel 1 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:100:47: note: in expansion of macro 'TIM_CHANNEL_1'
+  100 |   HAL_StatusTypeDef HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+      |                                               ^~~~~~~~~~~~~
+../Core/Src/main.c:101:39: error: expected declaration specifiers or '...' before '&' token
+  101 |   HAL_StatusTypeDef HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+      |                                       ^
+In file included from ../Core/Inc/stm32wbxx_hal_conf.h:311,
+                 from ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h:771:44: error: expected declaration specifiers or '...' before numeric constant
+  771 | #define TIM_CHANNEL_2                      0x00000004U                          /*!< Capture/compare channel 2 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:101:47: note: in expansion of macro 'TIM_CHANNEL_2'
+  101 |   HAL_StatusTypeDef HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+      |                                               ^~~~~~~~~~~~~
+../Core/Src/main.c:102:39: error: expected declaration specifiers or '...' before '&' token
+  102 |   HAL_StatusTypeDef HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+      |                                       ^
+In file included from ../Core/Inc/stm32wbxx_hal_conf.h:311,
+                 from ../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_tim.h:772:44: error: expected declaration specifiers or '...' before numeric constant
+  772 | #define TIM_CHANNEL_3                      0x00000008U                          /*!< Capture/compare channel 3 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:102:47: note: in expansion of macro 'TIM_CHANNEL_3'
+  102 |   HAL_StatusTypeDef HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+      |                                               ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:33:12 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19560	     20	   2544	  22124	   566c	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+09:42:11 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_usb.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32wbxx_hal_msp.d" -MT"Core/Src/stm32wbxx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32wbxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32wbxx_it.d" -MT"Core/Src/stm32wbxx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32wbxx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32wbxx.d" -MT"Core/Src/system_stm32wbxx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32wbxx.o"
+../Core/Src/main.c:25:10: fatal error: cmath: No such file or directory
+   25 | #include <cmath>
+      |          ^~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:44:34 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20580	     20	   2544	  23144	   5a68	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+09:56:32 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:25:10: fatal error: cmath.h: No such file or directory
+   25 | #include <cmath.h>
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:56:57 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:25:10: fatal error: cmath.h: No such file or directory
+   25 | #include "cmath.h"
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:57:20 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:25:10: fatal error: cmath.h: No such file or directory
+   25 | #include <cmath.h>
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:57:35 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:18:14: fatal error: cmath.h: No such file or directory
+   18 |   */#include <cmath.h>
+      |              ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+09:57:44 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:25:10: fatal error: cmath.h: No such file or directory
+   25 | #include <cmath.h>
+      |          ^~~~~~~~~
+compilation terminated.
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:01:23 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:416:20: error: incompatible types when assigning to type 'TIM_TypeDef *' {aka 'struct <anonymous> *'} from type 'TIM_HandleTypeDef' {aka 'struct <anonymous>'}
+  416 |  if(htim->Instance=htim1){
+      |                    ^~~~~
+../Core/Src/main.c:423:2: warning: implicit declaration of function 'HAL_TIM_SET_COMPARE' [-Wimplicit-function-declaration]
+  423 |  HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, value_red);
+      |  ^~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:01:35 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:416:19: warning: assignment to 'TIM_TypeDef *' {aka 'struct <anonymous> *'} from incompatible pointer type 'TIM_HandleTypeDef *' {aka 'struct <anonymous> *'} [-Wincompatible-pointer-types]
+  416 |  if(htim->Instance=&htim1){
+      |                   ^
+../Core/Src/main.c:416:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  416 |  if(htim->Instance=&htim1){
+      |     ^~~~
+../Core/Src/main.c:423:2: warning: implicit declaration of function 'HAL_TIM_SET_COMPARE' [-Wimplicit-function-declaration]
+  423 |  HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, value_red);
+      |  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+c:\users\anton\onedrive\desktop\enchipspc\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: Core/Src/main.o: in function `HAL_TIM_PeriodElapsedCallback':
+C:/Users/anton/OneDrive/Desktop/EnchipsPC/labboration_6_PWM/labb_6_pwm/Debug/../Core/Src/main.c:423: undefined reference to `HAL_TIM_SET_COMPARE'
+c:\users\anton\onedrive\desktop\enchipspc\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: C:/Users/anton/OneDrive/Desktop/EnchipsPC/labboration_6_PWM/labb_6_pwm/Debug/../Core/Src/main.c:424: undefined reference to `HAL_TIM_SET_COMPARE'
+c:\users\anton\onedrive\desktop\enchipspc\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: C:/Users/anton/OneDrive/Desktop/EnchipsPC/labboration_6_PWM/labb_6_pwm/Debug/../Core/Src/main.c:425: undefined reference to `HAL_TIM_SET_COMPARE'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:65: labb_6_pwm.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:02:36 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:416:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  416 |  if(htim->Instance=TIM1){
+      |     ^~~~
+../Core/Src/main.c:423:2: warning: implicit declaration of function 'HAL_TIM_SET_COMPARE' [-Wimplicit-function-declaration]
+  423 |  HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, value_red);
+      |  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+c:\users\anton\onedrive\desktop\enchipspc\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: Core/Src/main.o: in function `HAL_TIM_PeriodElapsedCallback':
+C:/Users/anton/OneDrive/Desktop/EnchipsPC/labboration_6_PWM/labb_6_pwm/Debug/../Core/Src/main.c:423: undefined reference to `HAL_TIM_SET_COMPARE'
+c:\users\anton\onedrive\desktop\enchipspc\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: C:/Users/anton/OneDrive/Desktop/EnchipsPC/labboration_6_PWM/labb_6_pwm/Debug/../Core/Src/main.c:424: undefined reference to `HAL_TIM_SET_COMPARE'
+c:\users\anton\onedrive\desktop\enchipspc\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_1.5.0.202011040924\tools\arm-none-eabi\bin\ld.exe: C:/Users/anton/OneDrive/Desktop/EnchipsPC/labboration_6_PWM/labb_6_pwm/Debug/../Core/Src/main.c:425: undefined reference to `HAL_TIM_SET_COMPARE'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:65: labb_6_pwm.elf] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:03:02 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:416:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  416 |  if(htim->Instance=TIM1){
+      |     ^~~~
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26600	     20	   2552	  29172	   71f4	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:05:14 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:416:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  416 |  if(htim->Instance=TIM1){
+      |     ^~~~
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26600	     20	   2552	  29172	   71f4	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:05:36 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:416:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  416 |  if(htim->Instance=TIM1){
+      |     ^~~~
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26600	     24	   2548	  29172	   71f4	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:07:03 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26608	     24	   2548	  29180	   71fc	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:10:19 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26608	     24	   2548	  29180	   71fc	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:13:57 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26444	     24	   2548	  29016	   7158	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:14:57 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26468	     24	   2548	  29040	   7170	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
+10:15:45 **** Incremental Build of configuration Debug for project labb_6_pwm ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB55xx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "labb_6_pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\anton\OneDrive\Desktop\EnchipsPC\labboration_6_PWM\labb_6_pwm\STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="labb_6_pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: labb_6_pwm.elf
+ 
+arm-none-eabi-objdump -h -S  labb_6_pwm.elf  > "labb_6_pwm.list"
+arm-none-eabi-objcopy  -O binary  labb_6_pwm.elf  "labb_6_pwm.bin"
+arm-none-eabi-size   labb_6_pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26608	     24	   2548	  29180	   71fc	labb_6_pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: labb_6_pwm.bin
+ 
+Finished building: labb_6_pwm.list
+ 
